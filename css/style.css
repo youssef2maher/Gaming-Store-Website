@@ -1,0 +1,542 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #232121;
+}
+
+
+
+
+/* NavBar Style*/
+
+.navbar {
+    background-color: #111010;
+}
+/*
+.navbar .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar .container-fluid .navbar-brand {
+    margin: 0 5% 0 1%;
+}
+
+.navbar .container-fluid .navbar-nav .nav-link {
+    margin: 0 0 0 3%;
+}
+
+
+.navbar .left-triangle {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+
+    border-bottom: 60px solid #232121;
+    border-right: 60px solid transparent;
+}
+
+.navbar .right-triangle {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+
+    border-bottom: 60px solid #232121;
+    border-left: 60px solid transparent;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .navbar {
+        padding: 1%;
+    }
+    
+    .navbar .container-fluid {
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .navbar .left-triangle {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .navbar .right-triangle {
+        position: absolute;
+        visibility: hidden;
+    }
+}
+*/
+/*End of NavBar Style*/
+
+
+
+
+
+
+.home-content {
+    padding: 0;
+    width: 100%;
+}
+
+
+
+
+/*Slider Style*/
+
+.second-slider {
+    margin: 7% 0 0 0;
+    width: 100%;
+    height: auto;
+    
+    border: 4px solid #111010;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .second-slider {
+        margin: 10% 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .second-slider {
+        margin: 20% 0 0 0;
+    }
+}
+
+/*End of Slider Style*/
+
+
+/*Slider Style (Backup)
+
+.carousel {
+    margin: 14% 0 0 0;
+    width: 100%;
+    
+    border: 4px solid #111010;
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .carousel {
+        margin: 8% 0 0 6%;
+        width: 88%;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+
+    .carousel {
+        margin: 7% 0 0 5%;
+        width: 90%;
+    }
+}
+
+End of Slider Style*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Product Row Style*/
+
+.product-row {
+    margin: 7% 0 0 0;
+}
+
+.product-row .row-title {
+    margin: 0 0 3% 0;
+
+    font-size: 150%;
+    color: #FFF;
+}
+
+.product-row .row {
+    margin: 0% 0 0 0%;
+    width: 100%;
+    
+    transition: all 1s;
+}
+
+.product-row .row .col {
+    padding: 0;
+    margin: 0 4.16% 0 0;
+    
+    overflow: hidden; 
+    transition: all 0.5s;
+}
+
+.product-row .row .last-col {
+    margin: 0;
+}
+
+.product-row .row .col img{
+    width: 250%;
+    height: auto;
+    position: relative;
+    right: 70%;
+
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+/*
+.product-row .row .col .img-1 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-2 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-3 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-4 {
+    right: 60%;   
+}
+*/
+.row .col .description {
+    width: 100%;
+}
+
+.row .col .description h1 {
+    padding: 0 0 0 2%;
+    margin: 0;
+
+    font-size: 110%;
+    background-color: #FFF;
+}
+
+.row .col .description h2 {
+    padding: 0 2% 0 2%;
+    margin: 0;
+    float: right;
+    width: 50%;
+    height: 20px;
+
+    font-size: 95%;
+    color: #FFF;
+    background-color: #000;
+    transition: width 0.3s linear 0.3s;
+}
+
+.row .col .description h2 .eval {
+    float: right;
+    visibility: hidden;
+}
+
+
+.product-row .row .col:hover > img {
+    cursor: pointer;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.product-row .row .col:hover > .description h1 {
+
+    color: #FFF;
+    background-color: #000;
+    transition: all 1s;
+}
+
+.product-row .row .col:hover > .description h2 {
+    width: 100%;
+
+    color: #000;
+    background-color: #FFF;
+}
+
+.product-row .row .col:hover > .description h2 .eval {
+    visibility: visible;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .product-row .row-title {
+        margin: 0 0 2% 0%;
+    
+        font-size: 110%;
+        color: #FFF;
+    }
+
+    .row .col .description h1 {
+        padding: 0 0 0 2%;
+        margin: 0;
+    
+        font-size: 80%;
+        background-color: #FFF;
+    }
+    
+    .row .col .description h2 {
+        padding: 0 2% 0 2%;
+        margin: 0;
+        float: right;
+        width: 50%;
+        height: 14px;
+    
+        font-size: 70%;
+        color: #FFF;
+        background-color: #000;
+        transition: width 0.3s linear 0.3s;
+    }
+} 
+
+@media only screen and (max-width: 425px) {
+
+    .product-row {
+        margin: 10% 0 0 10%;
+    }
+    
+    .product-row .row-title {
+        margin: 0 0 5% 0%;
+    
+        font-size: 120%;
+        color: #FFF;
+    }
+
+    .product-row .row {
+        margin: 0% 0 0 0%;
+        
+        transition: all 1s;
+    }
+
+    .product-row .row .last-col {
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .product-row .row .col {
+        padding: 0;
+        margin: 0 10% 5% 0;
+        width: 40%;
+        
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    .row .col .description h1 {
+        padding: 0 0 0 2%;
+        margin: 0;
+    
+        font-size: 80%;
+        background-color: #FFF;
+    }
+    
+    .row .col .description h2 {
+        padding: 0 2% 0 2%;
+        margin: 0;
+        float: right;
+        width: 50%;
+        height: 15px;
+    
+        font-size: 75%;
+        color: #FFF;
+        background-color: #000;
+        transition: width 0.3s linear 0.3s;
+    }
+    
+}
+
+/*End of Product Row Style*/
+
+
+
+
+
+
+
+
+
+
+
+/*Big Card Style*/
+
+.big-card {
+    padding: 5% 1% 0% 5%;
+    margin: 10% 0 0 0;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+
+    background-color: #BCBCBC;
+}
+
+.big-card .row {
+    width: 100%;
+    height: 95%;
+    overflow: hidden;
+
+    border-radius: 20px;
+}
+
+.big-card .row .col {
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    
+    background-image: url(../img/setup.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.big-card .row .col h2 {
+    margin: 20% 0 0 40%;
+    padding: 0 0 1% 1%;
+    width: 30%;
+
+    font-size: 250%;
+    background-color: #000;
+    color: #FFF;
+}
+
+.big-card .row .col h1 {
+    margin: 0% 0 0 30%;
+    padding: 0 0 1% 1%;
+    width: 60%;
+
+    font-size: 400%;
+    font-weight: bolder;
+    background-color: #FFF;
+    color: #000;
+}
+
+.big-card .row .col h3 {
+    margin: 0% 0 0 30%;
+    padding: 0 0 1% 1%;
+    width: 20%;
+
+    font-size: 250%;
+    background-color: #000;
+    color: #FFF;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .big-card {
+        height: 550px;
+    }
+    
+    .big-card .row .col {
+
+        background-attachment: fixed;
+    }
+    
+    .big-card .row .col h2 {
+        margin: 30% 0 0 40%;
+        padding: 0 0 1% 1%;
+        width: 35%;
+    
+        font-size: 200%;
+    }
+    
+    .big-card .row .col h1 {
+        margin: 0% 0 0 20%;
+        padding: 0 0 1% 1%;
+        width: 70%;
+    
+        font-size: 300%;
+    }
+    
+    .big-card .row .col h3 {
+        margin: 0% 0 0 30%;
+        padding: 0 0 1% 1%;
+        width: 25%;
+    
+        font-size: 200%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .big-card {
+        height: 400px;
+    }
+    
+    .big-card .row .col {
+        
+        background-attachment: unset;
+    }
+    
+    .big-card .row .col h2 {
+        margin: 40% 0 0 40%;
+        padding: 0 0 1% 1%;
+        width: 45%;
+    
+        font-size: 150%;
+    }
+    
+    .big-card .row .col h1 {
+        margin: 0% 0 0 20%;
+        padding: 0 0 1% 1%;
+        width: 77%;
+    
+        font-size: 200%;
+    }
+    
+    .big-card .row .col h3 {
+        margin: 0% 0 0 30%;
+        padding: 0 0 1% 1%;
+        width: 30%;
+    
+        font-size: 150%;
+    }
+}
+
+
+/*End of Big Card*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer Style*/
+
+.footer {
+    margin: 7% 0 0 0;
+    width: 100%;
+    height: 300px;
+
+    background-color: #070707;
+}
+
+/*End of Footer Style*/
+
+
+
+
+
+

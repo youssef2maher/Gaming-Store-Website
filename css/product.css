@@ -1,0 +1,976 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #232121;
+}
+
+
+
+
+/* NavBar Style*/
+
+.navbar {
+    background-color: #111010;
+}
+
+/* End of NavBar Style */
+
+
+
+
+/*Prouct Content Style*/
+
+.product-content {
+    padding: 0;
+    width: 100%;
+}
+
+/*End of Product Content Style*/
+
+
+
+
+
+
+
+/*Poster Row Style*/
+
+.poster-row {
+    margin: 7% 0 0 0;
+}
+
+.poster-row .row {
+    margin: 0% 0 0 0%;
+    width: 100%;
+    
+    transition: all 1s;
+}
+
+.poster-row .row .col {
+    padding: 0;
+    margin: 0 0% 0 0;
+    
+    overflow: hidden; 
+    transition: all 0.5s;
+}
+
+.poster-row .row .trailer {
+    margin: 0 0 0 8.33%;
+}
+
+.poster-row .row .col img {
+    width: 250%;
+    height: auto;
+    position: relative;
+    right: 70%;
+
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+
+.poster-row .row .col video {
+    width: 100%;
+    height: auto;
+}
+
+.poster-row .row .col:hover > img {
+    cursor: pointer;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .poster-row {
+        margin: 10% 0 0 0;
+    }
+
+} 
+
+@media only screen and (max-width: 425px) {
+
+    .poster-row {
+        margin: 20% 0 0 0;
+    }
+
+    .poster-row .row .poster {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .poster-row .row .trailer {
+        margin: 0;
+    }
+    
+}
+
+/*End of Poster Row Style*/
+
+
+
+
+
+
+
+
+
+
+
+/*Description Row Style*/
+
+.description {
+    margin: 5% 0 0 0;
+    width: 100%;
+
+}
+
+.description .row {
+    margin: 0;
+    width: 100%;
+
+}
+
+.description .row .title-col {
+    padding: 0;
+    margin: 0;
+}
+
+.description .row .description-col {
+    margin: 0 0 0 0;
+}
+
+.description .row .title-col h4 {
+
+    font-size: 120%;
+    color: #FFF;
+}
+
+.description .row .description-col p {
+
+    font-size: 100%;
+    color: #FFF;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .description .row .title-col h4 {
+        font-size: 100%;
+    }
+
+    .description .row .description-col p {
+        font-size: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .description {
+        margin: 15% 0 0 0;
+    }
+
+    .description .row .title-col {
+        margin: 0 0 2% 0;
+        padding: 0 0 0 1%;
+    }
+
+    .description .row .description-col {
+        
+        margin: 0;
+    }
+}
+
+/*End of Description Row Style*/
+
+
+
+
+
+
+
+
+
+/*About Game Style*/
+
+.about-game {
+    margin: 5% 0 0 0;
+    background-color: transparent;
+}
+
+.about-game .row {
+    margin: 0;
+    width: 100%;
+
+    background-color: transparent;
+}
+
+.about-game .row .title-col {
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+}
+
+.about-game .row .title-col h4 {
+
+    font-size: 120%;
+    color: #FFF;
+}
+
+.about-game .row .about-col {
+
+    color: #FFF;
+    background-color: transparent;
+}
+
+.about-game .row .about-col .row {
+    margin: 0 0 4% 0;
+}
+
+.about-game .row .about-col h5 {
+
+    color: rgb(204, 200, 200);
+    font-size: 100%;
+}
+
+.about-game .row .about-col h3 {
+
+    font-size: 120%;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .about-game .row .title-col h4 {
+
+        font-size: 100%;
+    }
+
+    .about-game .row .about-col h5 {
+
+        font-size: 90%;
+    }
+    
+    .about-game .row .about-col h3 {
+    
+        font-size: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .about-game {
+        margin: 15% 0 0 0;
+    }
+
+    .about-game .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .about-game .row .about-col {
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-game .row .about-col h5 {
+
+        font-size: 80%;
+    }
+    
+    .about-game .row .about-col h3 {
+    
+        font-size: 90%;
+    }
+    
+}
+
+/*End of About Game Style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ratings Row Style*/
+
+.ratings {
+    margin: 5% 0 0 0;
+}
+
+.ratings .row {
+    margin: 0;
+    width: 100%;
+}
+
+.ratings .row .title-col {
+    margin: 0;
+    padding: 0;
+}
+
+.ratings .row .title-col h4 {
+
+    font-size: 120%;
+    color: #FFF;
+}
+
+.ratings .row .ratings-col {
+
+    color: #FFF;
+}
+
+.ratings .row .ratings-col .row {
+    background-color: transparent;
+}
+
+.ratings .row .ratings-col h3 {
+
+    font-size: 100%;
+}
+
+.ratings .row .ratings-col .progress {
+    margin: 5% 0 0 0;
+    width: 100%;
+    height: 15%;
+
+    border-radius: 0;
+}
+
+.ratings .row .ratings-col .progress .progress-bar {
+
+    background-color: #000;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .ratings .row .title-col h4 {
+
+        font-size: 100%;
+    }
+    
+    .ratings .row .ratings-col h3 {
+
+        font-size: 85%;
+    }
+
+    .ratings .row .ratings-col .progress {
+        margin: 10% 0 0 0;
+        height: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .ratings {
+        margin: 15% 0 0 0;
+    }
+
+    .ratings .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .ratings .row .ratings-col {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ratings .row .ratings-col h3 {
+
+        font-size: 75%;
+    }
+
+    .ratings .row .ratings-col .progress {
+        margin: 10% 0 0 0;
+        height: 10%;
+    }
+    
+}
+
+/*End of Ratings Row Style*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Comments Row Style*/
+
+.comments {
+    margin: 5% 0 0 0;
+}
+
+.comments .row {
+    margin: 0;
+    width: 100%;
+}
+
+.comments .row .title-col {
+    margin: 0;
+    padding: 0;
+}
+
+.comments .row .title-col h4 {
+
+    font-size: 120%;
+    color: #FFF;
+}
+
+.comments .row .comments-col .row .comment-card {
+    margin: 0 0 2% 0;
+    height: 150px;
+
+    background-color: #111010;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.comments .row .comments-col .row .comment-card img {
+    margin: 10% 0 0 0;
+    width: 50%;
+    height: auto;
+
+    border-radius: 100%;
+    background-color: #FFF;
+}
+
+.comments .row .comments-col .row .comment-card h3 {
+    margin: 5% 0 0 0;
+
+    font-size: 100%;
+}
+
+.comments .row .comments-col .row .comment-card h2 {
+    margin: 2% 0 0 0;
+
+    font-size: 90%;
+}
+
+.comments .row .comments-col .row .comment-card h4 {
+    margin: 2% 0 0 0;
+
+    font-size: 80%;
+}
+
+.comments .row .comments-col .row .comment-card p {
+    margin: 3% 0 0 0;
+
+    font-size: 100%;
+}
+
+.comments .row .comments-col .row button {
+
+    color: #FFF;
+    border: 1px solid #FFF;
+    background-color: #111010;
+    transition: all 0.5s;
+}
+
+.comments .row .comments-col .row button:hover {
+
+    color: #000;
+    border: 2px solid #000;
+    background-color: #FFF;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1024px) {
+
+    .comments .row .comments-col .row button {
+        height: 40px;
+
+        font-size: 140%;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .comments .row .comments-col .row .comment-card {
+        margin: 0 0 2% 0;
+        height: 150px;
+    }
+
+    .comments .row .comments-col .row .comment-card img {
+        margin: 25% 0 0 0;
+        width: 70%;
+    }
+
+    .comments .row .title-col h4 {
+
+        font-size: 100%;
+    }
+
+    .comments .row .comments-col .row .comment-card h3 {
+        margin: 15% 0 0 0;
+    
+        font-size: 80%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h2 {
+        margin: 8% 0 0 0;
+    
+        font-size: 70%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h4 {
+        margin: 8% 0 0 0;
+    
+        font-size: 70%;
+    }
+    
+    .comments .row .comments-col .row .comment-card p {
+        margin: 5% 0 0 0;
+
+        font-size: 80%;
+    }
+
+}
+
+
+@media only screen and (max-width: 425px) {
+
+    .comments {
+        margin: 15% 0 0 0;
+    }
+
+    .comments .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .comments .row .comments-col .row .comment-card {
+        margin: 0 0 5% 0;
+        height: 110px;
+    }
+
+    .comments .row .comments-col .row .comment-card img {
+        margin: 45% 0 0 0;
+        width: 80%;
+    }
+
+    .comments .row .comments-col .row .comment-card h3 {
+        margin: 15% 0 0 0;
+    
+        font-size: 70%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h2 {
+        margin: 8% 0 0 0;
+    
+        font-size: 50%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h4 {
+        margin: 8% 0 0 0;
+    
+        font-size: 50%;
+    }
+    
+    .comments .row .comments-col .row .comment-card p {
+        margin: 5% 0 0 5%;
+
+        font-size: 60%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .comments {
+        margin: 15% 0 0 0;
+    }
+
+    .comments .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .comments .row .comments-col .row .comment-card {
+        margin: 0 0 2% 0;
+        height: 90px;
+    }
+
+    .comments .row .comments-col .row .comment-card img {
+        margin: 45% 0 0 0;
+        width: 90%;
+    }
+
+    .comments .row .comments-col .row .comment-card h3 {
+        margin: 25% 0 0 0;
+    
+        font-size: 70%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h2 {
+        margin: 5% 0 0 0;
+    
+        font-size: 40%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h4 {
+        margin: 5% 0 0 0;
+    
+        font-size: 40%;
+    }
+    
+    .comments .row .comments-col .row .comment-card p {
+        margin: 5% 0 0 0;
+        padding: 0 0 0 10%;
+
+        font-size: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    .comments {
+        margin: 15% 0 0 0;
+    }
+
+    .comments .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .comments .row .comments-col .row .comment-card {
+        margin: 0 0 2% 0;
+        height: 90px;
+    }
+
+    .comments .row .comments-col .row .comment-card img {
+        margin: 45% 0 0 0;
+        width: 120%;
+    }
+
+    .comments .row .comments-col .row .comment-card h3 {
+        margin: 25% 0 0 0;
+    
+        font-size: 50%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h2 {
+        margin: 15% 0 0 0;
+    
+        font-size: 35%;
+    }
+    
+    .comments .row .comments-col .row .comment-card h4 {
+        margin: 15% 0 0 0;
+    
+        font-size: 35%;
+    }
+    
+    .comments .row .comments-col .row .comment-card p {
+        margin: 5% 0 0 0;
+        padding: 0 0 0 10%;
+
+        font-size: 45%;
+    }
+}
+
+/*End of Comments Row Style*/
+
+
+
+
+
+
+
+
+
+
+
+/*Similar Gmaes Row Style*/
+
+.similar {
+    margin: 5% 0 0 0;
+}
+
+.similar .similar-row {
+    margin: 0;
+    width: 100%;
+}
+
+.similar .similar-row .title-col {
+    margin: 0;
+    padding: 0;
+}
+
+.similar .similar-row .title-col h4 {
+
+    font-size: 120%;
+    color: #FFF;
+}
+
+.similar .similar-row .similar-col {
+    background-color: transparent;
+}
+
+/*Product Row Style*/
+
+
+.similar .similar-row .similar-col .row {
+    margin: 0% 0 0 0%;
+    width: 100%;
+    
+    transition: all 1s;
+
+}
+
+.similar .similar-row .similar-col .row .col {
+    padding: 0;
+    margin: 0 12% 0 0;
+    
+    overflow: hidden; 
+    transition: all 0.5s;
+}
+
+.similar .similar-row .similar-col .row .last-col {
+    margin: 0;
+}
+
+.similar .similar-row .similar-col .row .col img{
+    width: 250%;
+    height: auto;
+    position: relative;
+    right: 70%;
+
+    border-top: 4px solid #000;
+    border-bottom: 4px solid #000;
+}
+/*
+.product-row .row .col .img-1 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-2 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-3 {
+    right: 60%;   
+}
+
+.product-row .row .col .img-4 {
+    right: 60%;   
+}
+*/
+.similar .similar-row .similar-col .row .col .description {
+    width: 100%;
+}
+
+.similar .similar-row .similar-col .row .col .description h1 {
+    padding: 0 0 0 2%;
+    margin: 0;
+
+    font-size: 110%;
+    background-color: #FFF;
+}
+
+.similar .similar-row .similar-col .row .col .description h2 {
+    padding: 0 2% 0 2%;
+    margin: 0;
+    float: right;
+    width: 50%;
+    height: 20px;
+
+    font-size: 95%;
+    color: #FFF;
+    background-color: #000;
+    transition: width 0.3s linear 0.3s;
+}
+
+.similar .similar-row .similar-col .row .col .description h2 .eval {
+    float: right;
+    visibility: hidden;
+}
+
+
+.similar .similar-row .similar-col .row .col:hover > img {
+    cursor: pointer;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
+.similar .similar-row .similar-col .row .col:hover > .description h1 {
+
+    color: #FFF;
+    background-color: #000;
+    transition: all 1s;
+}
+
+.similar .similar-row .similar-col .row .col:hover > .description h2 {
+    width: 100%;
+
+    color: #000;
+    background-color: #FFF;
+}
+
+.similar .similar-row .similar-col .row .col:hover > .description h2 .eval {
+    visibility: visible;
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .similar .similar-row .similar-col .row .col .description h1 {
+        padding: 0 0 0 2%;
+        margin: 0;
+    
+        font-size: 80%;
+        background-color: #FFF;
+    }
+    
+    .similar .similar-row .similar-col .row .col .description h2 {
+        padding: 0 2% 0 2%;
+        margin: 0;
+        float: right;
+        width: 50%;
+        height: 14px;
+    
+        font-size: 70%;
+        color: #FFF;
+        background-color: #000;
+        transition: width 0.3s linear 0.3s;
+    }
+} 
+
+@media only screen and (max-width: 425px) {
+
+    .similar {
+        margin: 15% 0 0 0;
+    }
+
+    .similar .row .title-col h4 {
+        margin: 0 0 5% 0;
+        padding: 0 0 0 1%;
+
+        font-size: 100%;
+    }
+
+    .similar .similar-row .similar-col .row {
+        margin: 0% 0 0 0%;
+        
+        transition: all 1s;
+    }
+
+    .similar .similar-row .similar-col .row .last-col {
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .similar .similar-row .similar-col .row .col {
+        padding: 0;
+        margin: 0 10% 5% 0;
+        width: 40%;
+        
+        overflow: hidden;
+        transition: all 0.5s;
+    }
+
+    .similar .similar-row .similar-col .row .col .description h1 {
+        padding: 0 0 0 2%;
+        margin: 0;
+    
+        font-size: 80%;
+        background-color: #FFF;
+    }
+    
+    .similar .similar-row .similar-col .row .col .description h2 {
+        padding: 0 2% 0 2%;
+        margin: 0;
+        float: right;
+        width: 50%;
+        height: 15px;
+    
+        font-size: 75%;
+        color: #FFF;
+        background-color: #000;
+        transition: width 0.3s linear 0.3s;
+    }
+    
+}
+
+/*End of Product Row Style*/
+
+
+
+/*End of Similar Games Row Style*/
+
+
+
+
+
+
+
+
+
+
+/*Footer Style*/
+
+.footer {
+    margin: 7% 0 0 0;
+    width: 100%;
+    height: 300px;
+
+    background-color: #070707;
+}
+
+/*End of Footer Style*/
